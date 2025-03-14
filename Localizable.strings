@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  WalmartCountries
+
+  Created by Sha'Marcus Walker on 3/14/25.
+*/
+"navigationbar_title" = "Countries App";
+"welcome_message" = "Welcome to the Countries App! Feel free to search any of the countries we have listed!";
+"noresults_message" = "No results found!";
+"error_title" = "Sorry!";
+"error_message" = "Having technical issues at the moment. Feel free to retry!";
+"error_retry" = "Retry";
+"error_ok" = "OK";

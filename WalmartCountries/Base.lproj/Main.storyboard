@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3B6-pM-V0U">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Countries View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="CountriesViewController" id="BYZ-38-t0r" customClass="CountriesViewController" customModule="WalmartCountries" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="mpp-sR-pA4" userLabel="CountryTableView">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="sectionIndexBackgroundColor" red="0.023299998062844017" green="0.0" blue="0.7773697843256685" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="198" id="h3D-gb-YOk" customClass="TableViewCell" customModule="WalmartCountries" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="198"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="h3D-gb-YOk" id="yPK-1o-uZc">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="198"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mvD-f3-fsY" userLabel="countryName">
+                                                    <rect key="frame" x="36" y="15.999999999999998" width="200" height="20.333333333333329"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="200" id="NSE-Jw-sa5"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfR-KJ-i4M" userLabel="countryCapital">
+                                                    <rect key="frame" x="36" y="68.333333333333314" width="337" height="121.66666666666669"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rJB-Tw-WLl" userLabel="countryCode">
+                                                    <rect key="frame" x="236" y="15.999999999999998" width="125" height="20.333333333333329"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="rJB-Tw-WLl" firstAttribute="top" secondItem="yPK-1o-uZc" secondAttribute="top" constant="16" id="8cX-WG-BoU"/>
+                                                <constraint firstItem="mvD-f3-fsY" firstAttribute="top" secondItem="yPK-1o-uZc" secondAttribute="top" constant="16" id="Bud-Mm-Uyh"/>
+                                                <constraint firstItem="mfR-KJ-i4M" firstAttribute="top" secondItem="mvD-f3-fsY" secondAttribute="bottom" constant="32" id="Yj1-Vu-YFn"/>
+                                                <constraint firstItem="mfR-KJ-i4M" firstAttribute="leading" secondItem="yPK-1o-uZc" secondAttribute="leadingMargin" constant="16" id="Zd3-u8-Adc"/>
+                                                <constraint firstItem="rJB-Tw-WLl" firstAttribute="centerY" secondItem="mvD-f3-fsY" secondAttribute="centerY" id="juo-oi-F2W"/>
+                                                <constraint firstItem="mvD-f3-fsY" firstAttribute="leading" secondItem="yPK-1o-uZc" secondAttribute="leadingMargin" constant="16" id="rNG-KA-2UV"/>
+                                                <constraint firstAttribute="bottom" secondItem="mfR-KJ-i4M" secondAttribute="bottom" constant="8" id="sY6-9X-Uaa"/>
+                                                <constraint firstAttribute="trailing" secondItem="rJB-Tw-WLl" secondAttribute="trailing" constant="32" id="yGc-9n-cQJ"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="mfR-KJ-i4M" secondAttribute="trailing" id="yS3-gK-iOX"/>
+                                                <constraint firstItem="rJB-Tw-WLl" firstAttribute="leading" secondItem="mvD-f3-fsY" secondAttribute="trailing" id="ysS-lF-IgF"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="countryCapital" destination="mfR-KJ-i4M" id="ooX-mC-Zef"/>
+                                            <outlet property="countryCode" destination="rJB-Tw-WLl" id="Ivl-fg-m8j"/>
+                                            <outlet property="countryName" destination="mvD-f3-fsY" id="sNM-8e-B4y"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEP-Dw-ccj">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <color key="textColor" red="0.02329999806" green="0.0" blue="0.77736978430000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2e6-Jn-NM4">
+                                <rect key="frame" x="0.0" y="118.99999999999999" width="393" height="20.333333333333329"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2e6-Jn-NM4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="01a-q3-mwU"/>
+                            <constraint firstItem="mpp-sR-pA4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3UQ-ee-c1x"/>
+                            <constraint firstItem="mpp-sR-pA4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="AWv-za-0D1"/>
+                            <constraint firstItem="mpp-sR-pA4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="KsX-bV-DRC"/>
+                            <constraint firstItem="2e6-Jn-NM4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Nee-0l-84A"/>
+                            <constraint firstItem="mpp-sR-pA4" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="YIH-KP-2Cr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HEP-Dw-ccj" secondAttribute="trailing" id="hK2-KV-LeR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HEP-Dw-ccj" secondAttribute="bottom" id="hzu-WD-8xV"/>
+                            <constraint firstItem="2e6-Jn-NM4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="ltV-tj-oKH"/>
+                            <constraint firstItem="HEP-Dw-ccj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ux9-IL-shH"/>
+                            <constraint firstItem="HEP-Dw-ccj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wHX-XX-mQg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="8yy-aG-st6"/>
+                    <connections>
+                        <outlet property="countryTableView" destination="mpp-sR-pA4" id="GiU-Gz-aoB"/>
+                        <outlet property="noResultsLabel" destination="HEP-Dw-ccj" id="a2P-6r-AXl"/>
+                        <outlet property="welcomeLabel" destination="2e6-Jn-NM4" id="N5X-d6-7v4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="953.43511450381675" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5qE-XU-UGl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3B6-pM-V0U" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="vfn-Od-XvX">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.02329999806" green="0.0" blue="0.77736978430000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" red="0.02329999806" green="0.0" blue="0.77736978430000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Mcb-4j-Tyz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FPP-TO-2Tj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="26.717557251908396" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

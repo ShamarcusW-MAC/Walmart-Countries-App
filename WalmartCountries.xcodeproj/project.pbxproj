@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2616B1902A49DBB7006D2202 /* CountriesDynamicFontTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2616B18F2A49DBB7006D2202 /* CountriesDynamicFontTest.swift */; };
+		264AF6F42A4666F30051886F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 264AF6F32A4666F30051886F /* Localizable.strings */; };
+		268FAE5F2A3B8A2500F85066 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268FAE5E2A3B8A2500F85066 /* AppDelegate.swift */; };
+		268FAE612A3B8A2500F85066 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268FAE602A3B8A2500F85066 /* SceneDelegate.swift */; };
+		268FAE662A3B8A2500F85066 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268FAE642A3B8A2500F85066 /* Main.storyboard */; };
+		268FAE682A3B8A2800F85066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268FAE672A3B8A2800F85066 /* Assets.xcassets */; };
+		268FAE6B2A3B8A2800F85066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268FAE692A3B8A2800F85066 /* LaunchScreen.storyboard */; };
+		268FAE772A3B8C7400F85066 /* CountryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268FAE762A3B8C7400F85066 /* CountryManager.swift */; };
+		268FAE792A3B8C8D00F85066 /* CountryEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268FAE782A3B8C8D00F85066 /* CountryEndpoint.swift */; };
+		268FAE7B2A3B8E6300F85066 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268FAE7A2A3B8E6300F85066 /* Country.swift */; };
+		268FAE7E2A3B945F00F85066 /* CountriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268FAE7D2A3B945F00F85066 /* CountriesViewModel.swift */; };
+		268FAE842A3BA0B100F85066 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268FAE832A3BA0B100F85066 /* TableViewCell.swift */; };
+		268FAE862A3BACF900F85066 /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268FAE852A3BACF900F85066 /* CountriesViewController.swift */; };
+		80C9F9D02A4629EA00DF040B /* WalmartCountriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C9F9CF2A4629EA00DF040B /* WalmartCountriesTests.swift */; };
+		80C9F9D72A462B5000DF040B /* CountriesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C9F9D62A462B5000DF040B /* CountriesViewModelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80C9F9D12A4629EA00DF040B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 268FAE532A3B8A2500F85066 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 268FAE5A2A3B8A2500F85066;
+			remoteInfo = WalmartCountries;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2616B18F2A49DBB7006D2202 /* CountriesDynamicFontTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesDynamicFontTest.swift; sourceTree = "<group>"; };
+		264AF6F32A4666F30051886F /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		268FAE5B2A3B8A2500F85066 /* WalmartCountries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalmartCountries.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		268FAE5E2A3B8A2500F85066 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		268FAE602A3B8A2500F85066 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		268FAE652A3B8A2500F85066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		268FAE672A3B8A2800F85066 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		268FAE6A2A3B8A2800F85066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		268FAE6C2A3B8A2800F85066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268FAE762A3B8C7400F85066 /* CountryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryManager.swift; sourceTree = "<group>"; };
+		268FAE782A3B8C8D00F85066 /* CountryEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryEndpoint.swift; sourceTree = "<group>"; };
+		268FAE7A2A3B8E6300F85066 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		268FAE7D2A3B945F00F85066 /* CountriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewModel.swift; sourceTree = "<group>"; };
+		268FAE832A3BA0B100F85066 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		268FAE852A3BACF900F85066 /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
+		80C9F9CD2A4629EA00DF040B /* WalmartCountriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalmartCountriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C9F9CF2A4629EA00DF040B /* WalmartCountriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalmartCountriesTests.swift; sourceTree = "<group>"; };
+		80C9F9D62A462B5000DF040B /* CountriesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewModelTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		268FAE582A3B8A2500F85066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C9F9CA2A4629EA00DF040B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		268FAE522A3B8A2500F85066 = {
+			isa = PBXGroup;
+			children = (
+				264AF6F32A4666F30051886F /* Localizable.strings */,
+				268FAE5D2A3B8A2500F85066 /* WalmartCountries */,
+				80C9F9CE2A4629EA00DF040B /* WalmartCountriesTests */,
+				268FAE5C2A3B8A2500F85066 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		268FAE5C2A3B8A2500F85066 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				268FAE5B2A3B8A2500F85066 /* WalmartCountries.app */,
+				80C9F9CD2A4629EA00DF040B /* WalmartCountriesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		268FAE5D2A3B8A2500F85066 /* WalmartCountries */ = {
+			isa = PBXGroup;
+			children = (
+				268FAE752A3B8B5300F85066 /* Network */,
+				268FAE742A3B8B4B00F85066 /* Model */,
+				268FAE732A3B8B4300F85066 /* ViewModel */,
+				268FAE722A3B8B3A00F85066 /* View */,
+				268FAE5E2A3B8A2500F85066 /* AppDelegate.swift */,
+				268FAE602A3B8A2500F85066 /* SceneDelegate.swift */,
+				268FAE642A3B8A2500F85066 /* Main.storyboard */,
+				268FAE672A3B8A2800F85066 /* Assets.xcassets */,
+				268FAE692A3B8A2800F85066 /* LaunchScreen.storyboard */,
+				268FAE6C2A3B8A2800F85066 /* Info.plist */,
+			);
+			path = WalmartCountries;
+			sourceTree = "<group>";
+		};
+		268FAE722A3B8B3A00F85066 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				268FAE832A3BA0B100F85066 /* TableViewCell.swift */,
+				268FAE852A3BACF900F85066 /* CountriesViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		268FAE732A3B8B4300F85066 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				268FAE7D2A3B945F00F85066 /* CountriesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		268FAE742A3B8B4B00F85066 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				268FAE7A2A3B8E6300F85066 /* Country.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		268FAE752A3B8B5300F85066 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				268FAE762A3B8C7400F85066 /* CountryManager.swift */,
+				268FAE782A3B8C8D00F85066 /* CountryEndpoint.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		80C9F9CE2A4629EA00DF040B /* WalmartCountriesTests */ = {
+			isa = PBXGroup;
+			children = (
+				80C9F9CF2A4629EA00DF040B /* WalmartCountriesTests.swift */,
+				80C9F9D62A462B5000DF040B /* CountriesViewModelTests.swift */,
+				2616B18F2A49DBB7006D2202 /* CountriesDynamicFontTest.swift */,
+			);
+			path = WalmartCountriesTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		268FAE5A2A3B8A2500F85066 /* WalmartCountries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268FAE6F2A3B8A2800F85066 /* Build configuration list for PBXNativeTarget "WalmartCountries" */;
+			buildPhases = (
+				268FAE572A3B8A2500F85066 /* Sources */,
+				268FAE582A3B8A2500F85066 /* Frameworks */,
+				268FAE592A3B8A2500F85066 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WalmartCountries;
+			productName = WalmartCountries;
+			productReference = 268FAE5B2A3B8A2500F85066 /* WalmartCountries.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80C9F9CC2A4629EA00DF040B /* WalmartCountriesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80C9F9D52A4629EA00DF040B /* Build configuration list for PBXNativeTarget "WalmartCountriesTests" */;
+			buildPhases = (
+				80C9F9C92A4629EA00DF040B /* Sources */,
+				80C9F9CA2A4629EA00DF040B /* Frameworks */,
+				80C9F9CB2A4629EA00DF040B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80C9F9D22A4629EA00DF040B /* PBXTargetDependency */,
+			);
+			name = WalmartCountriesTests;
+			productName = WalmartCountriesTests;
+			productReference = 80C9F9CD2A4629EA00DF040B /* WalmartCountriesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		268FAE532A3B8A2500F85066 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					268FAE5A2A3B8A2500F85066 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					80C9F9CC2A4629EA00DF040B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 268FAE5A2A3B8A2500F85066;
+					};
+				};
+			};
+			buildConfigurationList = 268FAE562A3B8A2500F85066 /* Build configuration list for PBXProject "WalmartCountries" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 268FAE522A3B8A2500F85066;
+			productRefGroup = 268FAE5C2A3B8A2500F85066 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				268FAE5A2A3B8A2500F85066 /* WalmartCountries */,
+				80C9F9CC2A4629EA00DF040B /* WalmartCountriesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		268FAE592A3B8A2500F85066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268FAE6B2A3B8A2800F85066 /* LaunchScreen.storyboard in Resources */,
+				264AF6F42A4666F30051886F /* Localizable.strings in Resources */,
+				268FAE682A3B8A2800F85066 /* Assets.xcassets in Resources */,
+				268FAE662A3B8A2500F85066 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C9F9CB2A4629EA00DF040B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		268FAE572A3B8A2500F85066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268FAE5F2A3B8A2500F85066 /* AppDelegate.swift in Sources */,
+				268FAE792A3B8C8D00F85066 /* CountryEndpoint.swift in Sources */,
+				268FAE842A3BA0B100F85066 /* TableViewCell.swift in Sources */,
+				268FAE772A3B8C7400F85066 /* CountryManager.swift in Sources */,
+				268FAE862A3BACF900F85066 /* CountriesViewController.swift in Sources */,
+				268FAE7B2A3B8E6300F85066 /* Country.swift in Sources */,
+				268FAE7E2A3B945F00F85066 /* CountriesViewModel.swift in Sources */,
+				268FAE612A3B8A2500F85066 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C9F9C92A4629EA00DF040B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C9F9D02A4629EA00DF040B /* WalmartCountriesTests.swift in Sources */,
+				2616B1902A49DBB7006D2202 /* CountriesDynamicFontTest.swift in Sources */,
+				80C9F9D72A462B5000DF040B /* CountriesViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80C9F9D22A4629EA00DF040B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 268FAE5A2A3B8A2500F85066 /* WalmartCountries */;
+			targetProxy = 80C9F9D12A4629EA00DF040B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		268FAE642A3B8A2500F85066 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				268FAE652A3B8A2500F85066 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		268FAE692A3B8A2800F85066 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				268FAE6A2A3B8A2800F85066 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		268FAE6D2A3B8A2800F85066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		268FAE6E2A3B8A2800F85066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		268FAE702A3B8A2800F85066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YJ927Y26Y3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WalmartCountries/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shamarcus.walker.WalmartCountries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		268FAE712A3B8A2800F85066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YJ927Y26Y3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WalmartCountries/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shamarcus.walker.WalmartCountries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80C9F9D32A4629EA00DF040B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myTech.WalmartCountriesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalmartCountries.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WalmartCountries";
+			};
+			name = Debug;
+		};
+		80C9F9D42A4629EA00DF040B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myTech.WalmartCountriesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalmartCountries.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WalmartCountries";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		268FAE562A3B8A2500F85066 /* Build configuration list for PBXProject "WalmartCountries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268FAE6D2A3B8A2800F85066 /* Debug */,
+				268FAE6E2A3B8A2800F85066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		268FAE6F2A3B8A2800F85066 /* Build configuration list for PBXNativeTarget "WalmartCountries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268FAE702A3B8A2800F85066 /* Debug */,
+				268FAE712A3B8A2800F85066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80C9F9D52A4629EA00DF040B /* Build configuration list for PBXNativeTarget "WalmartCountriesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C9F9D32A4629EA00DF040B /* Debug */,
+				80C9F9D42A4629EA00DF040B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 268FAE532A3B8A2500F85066 /* Project object */;
+}
